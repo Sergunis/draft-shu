@@ -1,0 +1,40 @@
+.container {
+  margin: 10px;
+  grid-area: chart;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.card {
+  display: inline-block;
+  min-height: 143px;
+  padding: 13px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(150, 70, 230, 0.25);
+  border-radius: 4px;
+}
+
+.allCharts {
+  display: grid;
+  grid-template-areas:
+    "chart1 chart4"
+    "chart2 chart3";
+}
+
+.chart1 {
+  grid-area: chart1;
+}
+
+.chart2 {
+  grid-area: chart2;
+}
+
+.chart3 {
+  grid-area: chart3;
+}
+
+.chart4 {
+  grid-area: chart4;
+}

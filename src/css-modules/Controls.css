@@ -1,0 +1,17 @@
+.container {
+  margin: 10px;
+  grid-area: control;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 274px;
+  min-height: 143px;
+  padding: 13px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(150, 70, 230, 0.25);
+  border-radius: 4px;
+}

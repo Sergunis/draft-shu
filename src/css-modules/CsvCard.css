@@ -1,0 +1,61 @@
+.container {
+  margin: 10px;
+  grid-area: csv;
+}
+
+.card-title {
+  padding-bottom: 10px;
+}
+
+.card {
+  background-color: white;
+  width: 360px;
+  height: 640px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px hsla(270, 85%, 39%, 35%);
+}
+
+.header {
+  width: 360px;
+  height: 46px;
+  display: flex;
+  border-radius: 4px 4px 0 0;
+  background-color: #e7e7e7;
+}
+
+.card .header .title {
+  margin: auto 13px;
+}
+
+.area {
+  width: 334px;
+  height: 570px;
+  margin-left: 13px;
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.14);
+}
+
+.area.hide {
+  height: 0px;
+  opacity: 0;
+}
+
+.computeButton {
+  border-radius: 5px;
+  height: 35px;
+  margin: auto 0;
+  transition: box-shadow 100ms ease, background-color 100ms ease;
+  outline: none;
+  border: 1px solid #c2c2c2;
+}
+.computeButton:hover {
+  background-color: #eee9b4;
+  box-shadow: 0 2px 4px grey;
+  cursor: pointer;
+}
+.computeButton:active {
+  box-shadow: 0 0px 3px grey;
+}

@@ -1,0 +1,173 @@
+.CsvCard__container___CvWse {
+  margin: 10px;
+  grid-area: csv;
+}
+
+.CsvCard__card-title___3Q3j5 {
+  padding-bottom: 10px;
+}
+
+.CsvCard__card___DnTQ6 {
+  background-color: white;
+  width: 360px;
+  height: 640px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px hsla(270, 85%, 39%, 35%);
+}
+
+.CsvCard__header___3DqO3 {
+  width: 360px;
+  height: 46px;
+  display: flex;
+  border-radius: 4px 4px 0 0;
+  background-color: #e7e7e7;
+}
+
+.CsvCard__card___DnTQ6 .CsvCard__header___3DqO3 .CsvCard__title___1ygEz {
+  margin: auto 13px;
+}
+
+.CsvCard__area___2SOre {
+  width: 334px;
+  height: 570px;
+  margin-left: 13px;
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.14);
+}
+
+.CsvCard__area___2SOre.CsvCard__hide___2V8pp {
+  height: 0px;
+  opacity: 0;
+}
+
+.CsvCard__computeButton___2pEKL {
+  border-radius: 5px;
+  height: 35px;
+  margin: auto 0;
+  transition: box-shadow 100ms ease, background-color 100ms ease;
+  outline: none;
+  border: 1px solid #c2c2c2;
+}
+.CsvCard__computeButton___2pEKL:hover {
+  background-color: #eee9b4;
+  box-shadow: 0 2px 4px grey;
+  cursor: pointer;
+}
+.CsvCard__computeButton___2pEKL:active {
+  box-shadow: 0 0px 3px grey;
+}
+
+.Table__container___2oipB {
+    width: 334px;
+    height: 570px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 13px;
+    margin-top: -10px;
+}
+
+.Table__hide___3282T {
+    display: none;
+}
+
+.Table__table___2ayjY {
+    width: 95%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.Table__table___2ayjY td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    background: #d8e6f3;
+    padding: 2px 5px;
+}
+.Controls__container___2EDgj {
+  margin: 10px;
+  grid-area: control;
+}
+
+.Controls__title___2dyXb {
+  margin-bottom: 10px;
+}
+
+.Controls__card___3GTUj {
+  width: 274px;
+  min-height: 143px;
+  padding: 13px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(150, 70, 230, 0.25);
+  border-radius: 4px;
+}
+
+.Chart__container___2fiyH {
+  margin: 10px;
+  grid-area: chart;
+}
+
+.Chart__title___1d6Qh {
+  margin-bottom: 10px;
+}
+
+.Chart__card___2BA5- {
+  display: inline-block;
+  min-height: 143px;
+  padding: 13px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(150, 70, 230, 0.25);
+  border-radius: 4px;
+}
+
+.Chart__allCharts___264Bu {
+  display: grid;
+  grid-template-areas:
+    "chart1 chart4"
+    "chart2 chart3";
+}
+
+.Chart__chart1___3CHN4 {
+  grid-area: chart1;
+}
+
+.Chart__chart2___oLNuR {
+  grid-area: chart2;
+}
+
+.Chart__chart3___2gbqW {
+  grid-area: chart3;
+}
+
+.Chart__chart4___33laN {
+  grid-area: chart4;
+}
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(
+            45deg,
+            hsl(0, 100%, 78%) 0%,
+            hsl(241, 100%, 89%) 50%,
+            hsl(43, 97%, 85%) 100%
+    );
+}
+
+.index__main___TavFS {
+    display: grid;
+    grid-template-areas:
+            "control chart"
+            "csv chart";
+    grid-template-rows: max-content;
+    grid-template-columns: max-content;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
