@@ -75,8 +75,6 @@ function CalcControlLines(rate, data) {
   const mRAvg = average(datamR)
   const avg = average(values)
 
-  console.log('mR', datamR, 'mRavg', mRAvg)
-
   // Центральная линия для Карты Средних
   const CLX = average(dataArr.map(getAvg))
   // Центральная линия для Карты Размахов
